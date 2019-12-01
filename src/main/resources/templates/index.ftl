@@ -83,9 +83,7 @@
             <div class="layui-container" style="padding-left: 2px;padding-right: 5px">
                 <div class="layui-row"><a href="javascript:moreNewBooks()">
                         <h2 class="layui-colla-title">最近更新小说
-                            <div style="float: right; margin-right: 20px"><i style="font-size: 14px;"
-                                                                             class="layui-icon">更多&#xe65b;</i>
-                            </div>
+
                         </h2>
                     </a></div>
                 <div class="layui-row" style="padding-top: 10px">
