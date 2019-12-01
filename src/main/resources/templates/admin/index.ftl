@@ -10,7 +10,7 @@
                 <li class="layui-nav-item">
                     <a href="javascript:;">${username!}</a>
                     <dl class="layui-nav-child"> <!-- 二级菜单 -->
-                        <dd><a href="admin/signout">退出</a></dd>
+                        <dd><a href="signout">退出</a></dd>
                     </dl>
                 </li>
 

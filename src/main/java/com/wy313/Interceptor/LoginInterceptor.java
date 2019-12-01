@@ -24,12 +24,12 @@ public class LoginInterceptor extends WebMvcConfigurationSupport {
             @Override
             public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
 
-//                Object username = request.getSession().getAttribute("username");
-//                if (username==null) {
-//                    request.setAttribute("msg","没有权限请先登录");
-//                    request.getRequestDispatcher("/admin/login").forward(request,response);
-//                    return false;
-//                }
+                Object username = request.getSession().getAttribute("username");
+                if (username==null) {
+                    request.setAttribute("msg","没有权限请先登录");
+                    request.getRequestDispatcher("/admin/login").forward(request,response);
+                    return false;
+                }
                 return true;
 
 
