@@ -93,7 +93,7 @@
             <a href="/page/id=${store.id}">
                 <div class="layui-col-xs6 layui-col-sm3 layui-col-md2 layui-col-lg2" style="text-align: center">
                     <img align="center"
-                         src="${siteurl}${store.img!}"/>
+                         src="${store.img!}"/>
                 </div>
             </a>
             <div style="padding: 20px" class="layui-col-xs6 layui-col-sm8 layui-col-md8 layui-col-lg8">

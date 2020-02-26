@@ -29,7 +29,7 @@
                     <a href="/page/id=${recmomend.id}">
                         <div style="padding: 1%" class="layui-col-xs4 layui-col-sm4 layui-col-md4 layui-col-lg4">
                             <img style=" width:80%; height:40vh; max-width:100%; max-height:100%;"
-                                 src="${siteurl}${recmomend.img}"/>
+                                 src="${recmomend.img}"/>
                             <br/>
                             <span>${recmomend.title}</span>
 
@@ -56,7 +56,7 @@
                        <a href="/page/id=${store.id}">
                            <div class="layui-col-xs5 layui-col-sm4 layui-col-md4 layui-col-lg4">
                                <img style=" width:100px; height:125px;"
-                                    src="${siteurl}${store.img}"/>
+                                    src="${store.img}"/>
                            </div>
                            <div class="layui-col-xs5 layui-col-sm6 layui-col-md6 layui-col-lg6">
                                <ul>

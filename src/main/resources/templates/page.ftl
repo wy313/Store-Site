@@ -128,7 +128,7 @@
 
 <div class="layui-row" style="background: #f2f2f2">
     <div style="padding: 10px" class="layui-col-xs4 layui-col-sm2 layui-col-md2 layui-col-lg2">
-        <img style=" width:auto; height:auto; max-width:100%; max-height:100%;" src="${siteurl}${store.img}"/>
+        <img style=" width:auto; height:auto; max-width:100%; max-height:100%;" src="${store.img}"/>
 
     </div>
     <div style="position:relative;padding: 10px 20px" class="layui-col-xs8 layui-col-sm8 layui-col-md8 layui-col-lg8">

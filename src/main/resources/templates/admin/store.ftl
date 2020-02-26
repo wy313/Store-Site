@@ -44,7 +44,7 @@
                     ${store.title}
                 </td>
                 <td>
-                    <img  src="${siteurl}${store.img}" width="100"  height="100" alt="">
+                    <img  src="${store.img}" width="100"  height="100" alt="">
                 </td>
                 <td>
                     ${store.intro}
